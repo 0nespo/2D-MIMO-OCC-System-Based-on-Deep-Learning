@@ -1,6 +1,10 @@
 # 2D-MIMO-OCC-System-Based-on-Deep-Learning
+# Yolo only detect led from >1 m, because the data provide more than 1 m
+
 
 *Abstract*
+
+
 
 <div style="text-align: justify">
     Optical camera communication (OCC) is one of the most promising optical wireless technology communication systems. This technology has a number of benefits compared to radio frequency, including unlimited spectrum, no congestion due to high usage, and low operating costs. OCC operates in order to transmit an optical signal from a light-emitting diode (LED) and receive the signal with a camera. However, identifying, detecting, and extracting data in a complex area with very high mobility is the main challenge in operating the OCC. In this paper, we design and implement a real-time OCC system that can communicate in high mobility conditions, based on You Only Look Once version 8 (YOLOv8). We utilized an LED array that can be identified accurately and has an enhanced data transmission rate due to a greater number of source lights. Our system is validated in a highly mobile environment with camera movement speeds of up to 10 m/s at 2 m, achieving a bit error rate of 10−2. In addition, this system achieves high accuracy of the LED detection algorithm with mAP0.5 and mAP0.5:0.95 values of 0.995 and 0.8604, respectively. The proposed method has been tested in real-time and achieves processing speeds up to 1.25 ms.
